@@ -1,33 +1,87 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-body {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #11171d;
+  min-height: 80rem;
 }
 
-.App-link {
-  color: #61dafb;
+.body {
+  display: flex;
+  flex-direction: column; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inner-body {
+  display: flex;
+  flex-direction: row;
+}
+
+.tweet-body {
+  display: flex;
+  flex-direction: column;
+  width: 566px;
+  height: 170px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  background-color: #15202a;
+  margin-left: 25rem;
+  margin-bottom: 0.1rem;
+}
+
+.tweet-body:hover { 
+  background-color: #11171d;
+  border: #ffffff;
+}
+
+.picture {
+  margin-left: 24px;
+  margin-top: 17px;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+}
+
+.name {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15px;
+  margin-top: 19px;
+  min-width: 85px;
+  height: 17px;
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  color: #ffffff;
+}
+
+.handle {
+  margin-left: 10px;
+  margin-top: 19px;
+  min-width: 128px;
+  height: 16px;
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  color: #75797d;
+}
+
+.tweet {
+  margin-left: 15px;
+  margin-top: 7px;
+  width: 445px;
+  height: 88px;
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  color: #ffffff;
 }
